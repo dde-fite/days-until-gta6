@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * 1-5'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   make-contribution:
     runs-on: ubuntu-latest
