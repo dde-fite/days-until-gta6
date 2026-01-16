@@ -18,7 +18,7 @@ jobs:
         with:
           # Checkout with full commit history
           fetch-depth: 0
-      - name: Make daily contribution
+      - name: Add days left to GTA 6
         run: |
           target="2026-11-19"
           today="$(date +%Y-%m-%d)"
